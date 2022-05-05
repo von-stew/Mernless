@@ -1,0 +1,36 @@
+# Default Mailer
+# This option controls the default mailer that is used to send any email
+# messages sent by your application. Alternative mailers may be setup
+
+default:
+  name:
+
+# Mailer Configurations
+# Here you may configure all of the mailers used by your application plus
+# their respective settings.
+# For testing feel free to use https://mailtrap.io/.
+
+mailer:
+  host:
+  port:
+  auth:
+    user:
+    pass:
+  # true for 465, false for other ports
+  secure:
+
+# You may wish for all e-mails sent by your application to be sent from
+# the same address. Here, you may specify a name and address that is
+# used globally for all e-mails that are sent by your application.
+sender:
+  address:
+
+
+# When a user forgets their password and try to reset it,
+# they get a reset password email link with a token:
+# docs: https://www.npmjs.com/package/randomstring
+token:
+  length:
+  charset:
+  capitalization:
+  expiration:
